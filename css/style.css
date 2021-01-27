@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+/* Estilos Gerais */
+
+body {
+  font-family: Nunito, sans-serif;
+  color: #445566;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: #445566;
+}
+
+
+
+/* Header */
+
+.info-horario {
+  background: #1188EE;
+  padding: 6px 0;
+  color: #fff;
+}
+
+.info-horario p {
+  font-weight: bold;
+  font-size: 0.875em;
+}
+
+.header {
+  background: #17222D;
+  padding: 12px 0;
+}
+
+.header-nav ul {
+  float: right;
+  margin-top: 10px;
+}
+
+.header-nav ul li {
+  display: inline-block;
+}
+
+.header-nav a {
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: bold;
+  
+}
+
+.header-nav li a::after {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-left: 15px;
+} 
+
+.header-nav li:last-child a::after {
+  content: '';
+  display: block;
+  width: auto;
+  height: 2px;
+  border-radius: 0;
+  background: #EE2211;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Intro */
+
+.intro {
+  background: url('../img/bg-intro.jpg') no-repeat center;
+  background-size: cover;
+  padding-top: 290px;
+  padding-bottom: 60px;
+}
+
+.intro h1 {
+  color: #fff;
+  font-family: Alice, serif;
+  font-size: 4.5em;
+}
+
+.form {
+  margin-top: 15px;
+}
+
+.intro input {
+  border: none;
+  height: 50px;
+  width: calc(100% - 200px);
+  font-size: 1.125em;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.intro button {
+  border: none;
+  height: 50px;
+  background: #EE2211;
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: bold;
+  width: 200px;
+  text-transform: uppercase;
+}
+
+.intro img {
+  padding-left: 10px;
+}
