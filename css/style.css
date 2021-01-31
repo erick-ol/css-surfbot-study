@@ -21,7 +21,6 @@ a {
 }
 
 
-
 /* Header */
 
 .info-horario {
@@ -119,4 +118,138 @@ a {
 
 .intro img {
   padding-left: 10px;
+}
+
+/* Infos */
+
+.info {
+  padding: 60px 0;
+  position: relative;
+}
+
+.foto-mapa {
+  position: absolute;
+  top: 615px;
+  left: 30px;
+}
+
+.foto-prancha img, .foto-mapa img {
+  box-shadow: 0px 5px 5px rgba(187, 204, 221, 0.3),
+  			      0px 10px 10px rgba(187, 204, 221, 0.2)	;
+}
+
+.info-local {
+  position: relative;
+  top: 155px;
+  left: 15px;
+}
+
+.info-local h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #17222d;
+  font-size: 0.875em;
+}
+
+.info-local h2::before {
+  content: '';
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  background: #fff;
+  border: 2.5px solid #FF3726;
+  border-radius: 50%;
+  margin-right: 7px;
+  margin-bottom: 1px;
+}
+
+.info-local ul li {
+  color: #99aabb;
+  font-weight: bold;
+  font-size: 0.875em;
+}
+
+.info-local ul li::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 2px;
+  background: #1188EE;
+  border-radius: 50%;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+
+.info-local ul li span {
+  font-weight: bold;
+  color: #17222d;
+}
+
+.info-curso h2 {
+  color: #17222d;
+  font-family: Alice, serif;
+  font-size: 4.5em;
+}
+
+.info-curso h2 span {
+  color: #1188ee;
+}
+
+.li-costa, .li-rest, .li-vida {
+  font-size: 1.5em;
+}
+
+.li-costa::before {
+  content: '';
+  display: inline-block;
+  width: 50.35px;
+  height: 52.27px;
+  margin-right: 30.65px;
+  background: url(../img/sandalhas.svg) no-repeat center;
+}
+
+.li-rest::before {
+  content: '';
+  display: inline-block;
+  width: 55.48px;
+  height: 64px;
+  margin-right: 25.52px;
+  background: url(../img/coco.svg) no-repeat center;
+}
+
+.li-vida::before {
+  content: '';
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin-right: 21px;
+  background: url(../img/boia.svg) no-repeat center;
+}
+
+.info-curso h2::after,.li-costa::after, .li-rest::after, .li-vida::after {
+  content: '';
+  display: block;
+  width: 470px;
+  height: 2px;
+  background: #EFF4F9;
+  border-radius: 50%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.li-vida::after {
+  margin-bottom: 30px;
+}
+
+.lista-info span {
+  position: relative;
+  top: -15px;
+}
+
+.lista-info p {
+  font-size: 18px;
+}
+
+.lista-info p:last-child{
+  margin-top: 30px;
 }
