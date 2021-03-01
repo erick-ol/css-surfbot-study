@@ -561,3 +561,21 @@ a {
   margin-top: 6px;
 }
 
+/* Footer */
+
+.footer {
+  background: #1188EE;
+  padding: 30px 0;
+}
+
+.footer p {
+  font-weight: bold;
+  font-size: 1.125em;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.icone_footer {
+  display: inline-block;
+  float: right;
+}
